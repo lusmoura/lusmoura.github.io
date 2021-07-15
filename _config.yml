@@ -1,42 +1,35 @@
-title: "My Blogs Name"
-author: "Default Author Name"
-description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+baseurl: "/zolan" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "example@mail.com"
-twitter_username: "twitteruser"
-github_username: "githubuser"
-linkedin_username: "linkedinuser"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
-
-rss: rss
-
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
+# Build settings
+markdown: kramdown
+permalink: pretty
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll/tagging
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+paginate: 5
+paginate_path: "/page/:num"
 
+
+# Pages Path
 defaults:
   - scope:
-      path: ""
-      type: post
+      path: '_pages'
     values:
-      tags: Other
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
