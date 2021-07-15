@@ -1,37 +1,37 @@
 #-------------------------------
 # General Site Settings
-title: Zolan
+title: Luísa Moura
 logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+description: Just trying random stuff
 
 
 #-------------------------------
 # Author Settings
 author:
-  name: Alex Rodriguez
+  name: Luísa Moura
   image: 01.jpg
-  say-hello: Hello, I’m <strong>Alex Rodriguez</strong>
+  say-hello: Hello, I’m <strong>Luísa Moura</strong>
   bio: Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves <a href="#">music</a> & riding his bicycle.
 
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/ # Add your Twitter handle
-facebook: https://facebook.com/ # Add your Facebook handle
+twitter: https://twitter.com/_lsmoura # Add your Twitter handle
+facebook: https://facebook.com/luisasouzamoura # Add your Facebook handle
 dribbble: https://dribbble.com/ # Add your Dribbble handle
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+instagram: https://instagram.com/luisamoura.py # Add your Instagram handle
+pinterest: https://pinterest.com/lusmoura # Add your Pinterest handle
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: lusmoura # add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
 # Instagram Feed
 instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: artemsheludko_ # Add instagram username
+instagram-profile: luisamoura.py # Add instagram username
 
 
 #-------------------------------
