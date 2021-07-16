@@ -2,25 +2,89 @@
 layout: page
 title: About
 permalink: /about/
-image: 01.jpg
+image: profile.JPG
 ---
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Hey, my name is Luísa Moura, I'm 22 and I was born and raised in Brazil 🇧🇷. I'm currently studying Computer Science at the University of São Paulo and working as a Solutions Engineering Intern at Facebook.
+
+Other than that, I love adventure and all sorts of random things. I practice Kung Fu and play basketball and in my free time, I enjoy reading science fiction and novels, watching series of dubious quality, watching superhero movies, and listening to indie music.
 
 ***
 
-#### Austin scenester...
-<small>2008 - 2018</small>
+## Resume
+### Education
+#### <small><i>University of São Paulo</i></small>
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+<small>2018 - Present</small>
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+BS in Computer Science
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+#### <small><i>Federal Institute of Bahia</i></small>
 
-#### La croix you probably...
-<small>1995 - 2000</small>
+<small>2014 - 2017</small>
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+Technical High School in Informatics
+
+---
+
+### Work Experience
+#### <small>Facebook</small>
+
+<small>Feb 2021 - Present</small>
+
+Solutions Engineering Intern
+
+#### <small>Upwork</small>
+
+<small>Apr 2020 - Present</small>
+
+Automation and Scripting Freelancer
+
+#### <small>ClickBus</small>
+
+<small>Jul 2020 - Jan 2021</small>
+
+Data Engineering Intern
+
+#### <small>Madai</small>
+
+<small>Jul 2020 - Oct 2020</small>
+
+Data Engineer
+
+#### <small>ClickBus</small>
+
+<small>Dec 2019 - Feb 2020</small>
+
+Data Engineering Intern
+
+#### <small>State Univeristy of Southestern Bahia</small>
+
+<small>Jun 2016 - Jul 2017</small>
+
+IT Intern
+
+---
+
+### Other Experience
+
+#### <small>Semcomp</small>
+
+<small>Feb 2019 - Present</small>
+
+Computer Science Academic Week president
+
+
+#### <small>Facebook</small>
+
+<small>Oct 2020 - Dec 2020</small>
+
+Technical Mentorship Program Mentee
+
+#### <small>She++</small>
+
+<small>Jan 2019 - Jan 2020</small>
+
+Ambassador
+
+---
