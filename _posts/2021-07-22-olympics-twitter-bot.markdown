@@ -23,28 +23,28 @@ To scrape the schedule, first I found a page with a proper table with all the da
 
 We need to import all the modules we'll use:
 
-{% highlight python3 %}
+```python
 import os
 import pytz
 import requests
 import pandas as pd
 from lxml import html
 from datetime import datetime, timedelta
-{% endhighlight %}
+```
 
 #### Step 2 - Get the data
 
 In order to get the data, we'll use the Requests module to make the requests and lxml to parse the response. To make the requests and parse the response we simply do:
 
-{% highlight python3 %}
+```python
 url = 'https://www.sportingnews.com/us/athletics/news/olympics-2021-start-schedule-opening-ceremony/9z5omct2mqe211c0ajna5tyj1'
 response = requests.get(url)
 tree = html.fromstring(response.text)
-{% endhighlight %}
+```
 
 By inspecting the page we can find the table elements and their xpaths *//div[@class="content-element__table-container"]*. Now for each table we can iterate over the rows and columns to get the data:
 
-{% highlight python3 %}
+```python
 for table in tables:                   # iterate over the tables
     rows = table[0].xpath('.//tr')     # get all rows
 
@@ -65,11 +65,11 @@ for table in tables:                   # iterate over the tables
         data.append(new_row)            # add new dict to the data
 
 df = pd.DataFrame(data)                 # create dataframe from list
-{% endhighlight %}
+```
 
 We can make one improvement when it comes to dealing with the dates. Not only they have an weird format, they're also based in ET timezone. For that, we'll create a new function that receives the text we got from the table, the amount of days since the start of the olympics and the olympics start date.
 
-{% highlight python3 %}
+```python
 def parse_time(time, days_since, start_day):
     day = start_day + timedelta(days=days_since)                                                   # calculate day
     
@@ -96,11 +96,11 @@ def parse_time(time, days_since, start_day):
     start_time = pytz.timezone('US/Eastern').localize(start_time)                                  # add timezone
     end_time = pytz.timezone('US/Eastern').localize(end_time)
     return start_time, end_time
-{% endhighlight %}
+```
 
 And the last thing is to change a bit our *get* function.
 
-{% highlight python3 %}
+```python
 def get(self):
     if not os.path.isdir('data'):
         os.mkdir('data')
@@ -134,4 +134,4 @@ def get(self):
 
     df = pd.DataFrame(data)
     return df
-{% endhighlight %}
+```
