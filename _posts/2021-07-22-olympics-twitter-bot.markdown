@@ -2,7 +2,7 @@
 layout: post
 title:  "Olympics Twitter Bot"
 date:   2021-07-22 12:00:00 -0300
-image:  twitter_olympics.jpg
+image:  twitter_olympics.png
 tags:   Twitter Bot
 ---
 ## Toy Project | Twitter bot to post when events are about to start
