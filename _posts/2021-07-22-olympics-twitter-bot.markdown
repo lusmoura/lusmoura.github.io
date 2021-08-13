@@ -26,9 +26,16 @@ We need to import all the modules we'll use:
 ```python
 import os
 import pytz
+import tweepy
 import requests
+import env_file
 import pandas as pd
+import dateutil.parser
+
+import pandas as pd
+
 from lxml import html
+from time import sleep
 from datetime import datetime, timedelta
 ```
 
@@ -135,3 +142,61 @@ def get(self):
     df = pd.DataFrame(data)
     return df
 ```
+
+#### Step 3 - Create Bot
+
+Now that we have the schedule, we can go ahead and create a bot to post it. The first thing I usually do is create a Bot class, in order to authenticate and create useful wrappers:
+
+
+```python
+class TwitterBot:
+    def __init__(self, creds_path=None):
+        self.api = self.get_api(creds_path)
+    
+    # assumes you have a .env file with valid credentials
+    def get_api(self, creds_path):
+        creds = env_file.get('.env')
+        api_key = creds['API_KEY']
+        api_secret = creds['API_SECRET']
+        access_token = creds['ACCESS_TOKEN']
+        access_token_secret = creds['ACCESS_TOKEN_SECRET']
+
+        auth = tweepy.OAuthHandler(api_key, api_secret) 
+        auth.set_access_token(access_token, access_token_secret)
+        api = tweepy.API(auth)
+        return api
+    
+    def post_tweet(self, tweet):
+        self.api.update_status(tweet)
+```
+
+We can now create a function to check if there's any event happening soon that should be posted:
+
+```python
+def check_post(schedule, bot):
+    ET = pytz.timezone('US/Eastern')
+
+    # iterate over the schedule checking for events happening in a 20-second window from now that has not yet been posted
+    for i, row in schedule.iterrows():
+        now = datetime.now(ET)
+        
+        if abs(row['Start Time'] - now) < timedelta(seconds=20) and not row['Post']:
+            schedule.loc[i, 'Post'] = True
+            post_text = get_post_text(row)
+            bot.post_tweet(post_text)
+```
+
+The last thing is to create a main function to keep a loop on that:
+
+```python
+if __name__ == '__main__':
+    bot = TwitterBot()
+
+    while True:
+        check_post(schedule, bot)
+        sleep(5)
+```
+
+## The end
+
+The project is not that complex, but yet uses a lot of different technologies and modules. It was nice doing it to practice and to have some fun =D
