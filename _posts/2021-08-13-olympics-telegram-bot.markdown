@@ -14,3 +14,14 @@ A principal diferença desse bot é que ele permite que você escolha apenas alg
 2. Receber comandos dos usuários para subscrição e visão de próximos eventos
 
 ## Resumão
+
+O Bot terá as seguintes fucionalidades:
+- Subscrever em uma modalidade
+- Excluir subscrição
+- Ver próximos eventos de uma modalidade
+- Enviar notificações acerca das modalidades inscritas
+
+Para isso, será preciso criar um Banco de Dados que possuirá os campos ID do usuário e modalidade. Assim será possível armazenar todas as subscrições de cada um dos usuários e, assim, enviar as notificações de forma correta.
+
+## Comandos do bot
+
