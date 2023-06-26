@@ -1,41 +1,36 @@
+---
 #-------------------------------
 # General Site Settings
 title: Luísa Moura
 logo: logo.png # You can add own logo.
 description: Just trying random stuff
 
-
 #-------------------------------
 # Author Settings
 author:
   name: Luísa Moura
-  image: luisa_moura.JPG
+  image: luisa_moura.png
   say-hello: Hey, I’m <strong>Luísa Moura</strong> 🖖
   bio: Computer Science Student at the <strong>University of São Paulo</strong> and Solutions Engineering Intern at <strong>Facebook</strong>. Here you'll find some of my personal and professional projetcts  (probably some random stuff as well).
 
-
 #-------------------------------
 # Contact links
-linkedin: https://linkedin.com/in/lusmoura
+linkedin: https://linkedin.com/in/luisamoura
 github: https://github.com/lusmoura
 instagram: https://instagram.com/luisamoura.py # Add your Instagram handle
-
 
 #-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: lusmoura # add your shortname for Disqus Comment. For example mr-brown
-
 
 #-------------------------------
 # Instagram Feed
 instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
 instagram-profile: luisamoura.py # Add instagram username
 
-
 #-------------------------------
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
-
 
 #-------------------------------
 # Newsletter

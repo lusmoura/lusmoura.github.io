@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: profile.JPG
+image: profile.png
 ---
 
 Hey, my name is Luísa Moura, I'm 24 and I was born and raised in Brazil 🇧🇷. I'm currently a Software Engineer at Cohere. I hold a bachelor's degree in computer science from the University of São Paulo (USP) and I previously worked as a Solutions Engineer and Software Engineer at Meta (formerly Facebook).
