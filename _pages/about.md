@@ -5,7 +5,8 @@ permalink: /about/
 image: profile.JPG
 ---
 
-Hey, my name is Luísa Moura, I'm 22 and I was born and raised in Brazil 🇧🇷. I'm currently studying Computer Science at the University of São Paulo and working as a Solutions Engineering Intern at Facebook.
+Hey, my name is Luísa Moura, I'm 24 and I was born and raised in Brazil 🇧🇷. I'm currently a Software Engineer at Cohere. I hold a bachelor's degree in computer science from the University of São Paulo (USP) and I previously worked as a Solutions Engineer and Software Engineer at Meta (formerly Facebook).
+
 
 Other than that, I love adventure and all sorts of random things. I practice Kung Fu and play basketball and in my free time, I enjoy reading science fiction and novels, watching series of dubious quality, watching superhero movies, and listening to indie music.
 
@@ -15,7 +16,7 @@ Other than that, I love adventure and all sorts of random things. I practice Kun
 ### Education
 #### <small><i>University of São Paulo</i></small>
 
-<small>2018 - Present</small>
+<small>2018 - 2022</small>
 
 BS in Computer Science
 
@@ -28,15 +29,33 @@ Technical High School in Informatics
 ---
 
 ### Work Experience
+#### <small>Cohere</small>
+
+<small>Jan 2023 - Present</small>
+
+Solutions Engineering Intern
+
+#### <small>Cohere</small>
+
+<small>Jun 2022 - Dec 2022</small>
+
+Software Engineering Intern
+
 #### <small>Facebook</small>
 
-<small>Feb 2021 - Present</small>
+<small>Jan 2022 - Apr 2022</small>
+
+Software Engineering Intern
+
+#### <small>Facebook</small>
+
+<small>Feb 2021 - Dec 2021</small>
 
 Solutions Engineering Intern
 
 #### <small>Upwork</small>
 
-<small>Apr 2020 - Present</small>
+<small>Apr 2020 - Dec 2021</small>
 
 Automation and Scripting Freelancer
 
@@ -70,7 +89,7 @@ IT Intern
 
 #### <small>Semcomp</small>
 
-<small>Feb 2019 - Present</small>
+<small>Feb 2019 - Dec 2022</small>
 
 Computer Science Academic Week president
 
