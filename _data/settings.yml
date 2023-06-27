@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 title: Luísa Moura
-logo: logo.png # You can add own logo.
+logo: logo.png
 description: Just trying random stuff
 
 #-------------------------------
@@ -11,7 +11,7 @@ author:
   name: Luísa Moura
   image: luisa_moura.png
   say-hello: Hey, I’m <strong>Luísa Moura</strong> 🖖
-  bio: Computer Science Student at the <strong>University of São Paulo</strong> and Solutions Engineering Intern at <strong>Facebook</strong>. Here you'll find some of my personal and professional projetcts  (probably some random stuff as well).
+  bio: Software Engineer at <strong>Cohere</strong> and Computer Scientist (<strong>University of São Paulo</strong>). Here you'll find some of my personal and professional projetcts (probably some random stuff as well).
 
 #-------------------------------
 # Contact links
